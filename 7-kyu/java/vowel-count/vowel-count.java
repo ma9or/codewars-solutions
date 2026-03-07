@@ -1,9 +1,8 @@
 public class Vowels {
 ​
- public static int getCount(String str) {
+   public static int getCount(String str) {
         int count = 0;
         str = str.toLowerCase();
-//проходим циклом по строке и проверяем каждый символ
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
 ​
@@ -12,5 +11,8 @@ public class Vowels {
             }
         }
         return count;
+​
 }
   }
+​
+​

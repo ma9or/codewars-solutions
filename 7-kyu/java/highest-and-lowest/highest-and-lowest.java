@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 ​
 public class Kata {
-   public static String highAndLow(String numbers) {
+  public static String highAndLow(String numbers) {
         String[] items = numbers.split(" ");
         List<Integer> newList = new ArrayList<>();
 ​
@@ -11,8 +11,11 @@ public class Kata {
             newList.add(Integer.parseInt(item));
         }
 ​
-        int min = newList.get(0);
-        int max = newList.get(0);
+//        int min = newList.get(0);
+//        int max = newList.get(0);
+​
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
 ​
 ​
         for (Integer vl : newList) {

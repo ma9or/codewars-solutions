@@ -1,6 +1,7 @@
 public class Kata {
     public static String noSpace(final String x) {
-        String x1 = x.replaceAll(" ", "");
-        return x1;
+        String new_string = x.replace(" ", "");
+        
+        return new_string;
     }
 }

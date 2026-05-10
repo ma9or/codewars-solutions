@@ -11,4 +11,5 @@ function sc(floor){
         scrim += wordFirst.repeat(floor - 1) + wordSecond;
     }
   return scrim;
-}
+};
+​
